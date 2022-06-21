@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "AWS Masters!"
+    return "AWS Masters! Firs update test"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 80))
